@@ -15,6 +15,7 @@
 		4F4F647A212203C700D4FAB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F4F6478212203C700D4FAB2 /* LaunchScreen.storyboard */; };
 		4F4F6485212203C700D4FAB2 /* Simple_SudokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F6484212203C700D4FAB2 /* Simple_SudokuTests.swift */; };
 		4F4F6490212203C700D4FAB2 /* Simple_SudokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F648F212203C700D4FAB2 /* Simple_SudokuUITests.swift */; };
+		4F4F649E212205A600D4FAB2 /* sudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4F649D212205A600D4FAB2 /* sudoku.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4F4F648B212203C700D4FAB2 /* Simple SudokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple SudokuUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4F648F212203C700D4FAB2 /* Simple_SudokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simple_SudokuUITests.swift; sourceTree = "<group>"; };
 		4F4F6491212203C700D4FAB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F4F649D212205A600D4FAB2 /* sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sudoku.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4F4F646C212203BC00D4FAB2 /* AppDelegate.swift */,
 				4F4F646E212203BC00D4FAB2 /* ViewController.swift */,
 				4F4F6470212203BC00D4FAB2 /* Main.storyboard */,
+				4F4F649D212205A600D4FAB2 /* sudoku.swift */,
 				4F4F6476212203C700D4FAB2 /* Assets.xcassets */,
 				4F4F6478212203C700D4FAB2 /* LaunchScreen.storyboard */,
 				4F4F647B212203C700D4FAB2 /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				4F4F646F212203BC00D4FAB2 /* ViewController.swift in Sources */,
 				4F4F646D212203BC00D4FAB2 /* AppDelegate.swift in Sources */,
+				4F4F649E212205A600D4FAB2 /* sudoku.swift in Sources */,
 				4F4F6475212203BC00D4FAB2 /* Simple_Sudoku.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
